@@ -12,6 +12,11 @@
     <PackageTags>xero;api;sdk;oauth2;oauth2.0</PackageTags>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="IdentityModel" Version="4.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="II.IdentityModel">
+      <HintPath>II.IdentityModel\II.IdentityModel.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
